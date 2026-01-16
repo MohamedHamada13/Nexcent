@@ -1,0 +1,112 @@
+
+/* Global classes */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --bg-natural-selver: #F5F7FA; /* Navbar background  & Hero */ 
+    --bg-primary: #4CAF4F; /* Primary color */
+    --text-brand-color: #4CAF4F; /* Brand text color */
+    --text-main-color: #4D4D4D; /* Header text color */
+    --natural-gray: #717171; /* for paragraph text */
+}
+
+.primary-color {
+    color: var(--bg-primary);
+}
+
+.natural-gray-color {
+    color: var(--natural-gray);
+}
+
+.bg-natural-selver {
+    background-color: var(--bg-natural-selver);
+}
+
+.text-brand-color {
+    color: var(--text-brand-color);
+}
+
+.text-main-color {
+    color: var(--text-main-color);
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.mtb-40 {
+    margin: 40px 0; 
+}
+
+.w-65px {
+    width: 65px;
+}
+
+.ps-32px {
+    padding-left: 32px;
+}
+
+.pe-32px {
+    padding-right: 32px;
+}
+
+.fs-12px {
+    font-size: 12px;
+}
+
+.fs-32px {
+    font-size: 48px;
+}
+
+/* Global classes */
+
+
+/* #region Header styles */
+
+.navbar {
+    .login{
+        color: var(--bg-primary);
+        transition: all 0.5s;  
+    }    
+
+    .login:hover{
+        color: #FFF;
+        background-color: var(--bg-primary);
+    } 
+}
+
+.btn-primary {
+    background-color: var(--bg-primary);
+    color: #fff;
+    border: none;
+    transition: all 0.4s;
+}
+
+.btn-primary:hover {
+    background-color: darken(var(--bg-primary), 10%);
+    color: #18191F;
+    outline: 1px solid var(--bg-primary);
+}
+
+/* #endregion Header styles */
+
+
+.hero {
+    height: 599px;
+}
+
+
+/* #region Our-Clients Section */
+
+
+/* #endregion Our-Clients Section */
