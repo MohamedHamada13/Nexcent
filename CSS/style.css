@@ -1,19 +1,23 @@
-
 /* Global classes */
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
-    --bg-natural-selver: #F5F7FA; /* Navbar background  & Hero */ 
-    --bg-primary: #4CAF4F; /* Primary color */
-    --text-brand-color: #4CAF4F; /* Brand text color */
-    --text-main-color: #4D4D4D; /* Header text color */
-    --natural-gray: #717171; /* for paragraph text */
+    --bg-natural-selver: #F5F7FA;
+    /* Navbar background  & Hero */
+    --bg-primary: #4CAF4F;
+    /* Primary color */
+    --text-brand-color: #4CAF4F;
+    /* Brand text color */
+    --text-main-color: #4D4D4D;
+    /* Header text color */
+    --natural-gray: #717171;
+    /* for paragraph text */
 }
 
 .primary-color {
@@ -45,7 +49,7 @@ h1 {
 }
 
 .mtb-40 {
-    margin: 40px 0; 
+    margin: 40px 0;
 }
 
 .w-65px {
@@ -68,21 +72,30 @@ h1 {
     font-size: 48px;
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.fs-15px {
+    font-size: 15px;
+}
+
 /* Global classes */
 
 
 /* #region Header styles */
 
 .navbar {
-    .login{
+    .login {
         color: var(--bg-primary);
-        transition: all 0.5s;  
-    }    
+        transition: all 0.5s;
+    }
 
-    .login:hover{
+    .login:hover {
         color: #FFF;
         background-color: var(--bg-primary);
-    } 
+    }
 }
 
 .btn-primary {
@@ -110,3 +123,81 @@ h1 {
 
 
 /* #endregion Our-Clients Section */
+
+
+
+/* #region Footer styles    */
+
+.media-icon {
+    background-color: rgba(128, 128, 128, 0.189);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer-distrubution-1 {
+    flex-basis: 200px;
+}
+
+.footer-distrubution-2 {
+    flex-grow: 1;
+}
+
+.send-btn {
+    background-color: rgba(128, 128, 128, 0.189);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    border: none;
+}
+
+input {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.189);
+    color: #FFF;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #999;
+}
+
+.contact-form:focus-within {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+hr {
+    /* border: none; */
+    /* height: 1px;  */
+    /* background-color: #ddd; */
+    /* margin: 20px 0; */
+}
+
+hr {
+    margin: 0;
+    margin-top: 1rem;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: 0.75;
+}
+
+/* #region Footer styles    */
